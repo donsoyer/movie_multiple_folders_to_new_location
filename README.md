@@ -34,7 +34,7 @@ def remove_empty_folders(folder):
                 os.rmdir(folder_path)
                 print(f"Removed empty folder: {folder_path}")
 
-  # Usage:
+  #Usage:
 source_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Stara lokacja'
 destination_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Nowa lokacja'
 
@@ -44,27 +44,27 @@ remove_empty_folders(source_folder)
 
 #This script performs two main operations:
 
-  # 1.    Moving multiple folders:
-  #        The move_multiple_folders function moves all folders from the source location (src) to the destination location (dst).
-  #        If a folder with the same name already exists in the destination, it creates a new folder with a number in parentheses, e.g., folder (1).
-  #        It also moves all files and subfolders from the source folders to the corresponding destination folders.
+  #1.    Moving multiple folders:
+  #The move_multiple_folders function moves all folders from the source location (src) to the destination location (dst).
+  #If a folder with the same name already exists in the destination, it creates a new folder with a number in parentheses, e.g., folder (1).
+  #It also moves all files and subfolders from the source folders to the corresponding destination folders.
   
-  # 2.   Removing empty folders:
-  #        The remove_empty_folders function scans the given location (folder) and removes all empty folders.
-  # It prints a message for each empty folder that is removed.
+  #2.   Removing empty folders:
+  #The remove_empty_folders function scans the given location (folder) and removes all empty folders.
+  #It prints a message for each empty folder that is removed.
           
           
   
-  # Folder paths: Ensure that the paths to the source folder (source_folder) and the destination folder (destination_folder) are correct. Are you sure both paths exist and have the appropriate write permissions?
+  #Folder paths: Ensure that the paths to the source folder (source_folder) and the destination folder (destination_folder) are correct. Are you sure both paths exist and have the appropriate write permissions?
   
-  # Escape characters in paths: In Python, you need to use double escape characters (\\) in Windows paths. For example:
-  # source_folder = "C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Stara lokacja"
-  # destination_folder = "C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Nowa lokacja"
+  #Escape characters in paths: In Python, you need to use double escape characters (\\) in Windows paths. For example:
+  #source_folder = "C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Stara lokacja"
+  #destination_folder = "C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Nowa lokacja"
   
-  # Escape characters in paths for single quotes: If you use single quotes (') to define paths, remember that you need to use double escape characters inside them:
-  # source_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Stara lokacja'
-  # destination_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Nowa lokacja'
+  #Escape characters in paths for single quotes: If you use single quotes (') to define paths, remember that you need to use double escape characters inside them:
+  #source_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Stara lokacja'
+  #destination_folder = 'C:\\Users\\micha\\Downloads\\itch\\pythonKopiujDoNowychFolderów\\Nowa lokacja'
   
-  # Check if the function is called: Ensure that you call the function move_multiple_folders(source_folder, destination_folder) in your code. Without calling the function, the code will not execute.
+  #Check if the function is called: Ensure that you call the function move_multiple_folders(source_folder, destination_folder) in your code. Without calling the function, the code will not execute.
   
   
